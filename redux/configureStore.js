@@ -11,8 +11,8 @@ export const ConfigureStore = () => {
         combineReducers({
             campsites,
             comments,
-            partners,
-            promotions
+            promotions,
+            partners
         }),
         applyMiddleware(thunk, logger)
     );
